@@ -30,15 +30,23 @@
             and clicks submit,
             redirect them to:
 
-            e.g. "https://duckduckgo.com/?q=%2300fa91".
+            e.g. "https://duckduckgo.com".
           </pre>
         </div>
       </div>
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
 
-          <!-- CODE IN HERE -->
-
+          <form id= "color-picker" method="GET" action"https://duckduckgo.com">
+            <input type="color" name="q">
+            <input type="submit">
+          </form>
+          <!-- <form id="artist-search-form" action="https://musicbrainz.org/search" method="GET">
+              <label for="query">Search by Artist</label>
+              <input id="query" name="query" value="Adele">
+              <input id="type" name="type" value="artist" hidden>
+              <input type="submit">
+          </form> -->
         </div>
       </div>
     </div>
